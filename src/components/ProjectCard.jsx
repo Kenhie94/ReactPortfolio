@@ -1,10 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/ProjectCard.css'; // Import the custom CSS
+import '../styles/App.css'
 
 const ProjectCard = ({ title, description, image, link }) => {
   return (
-    <div className="custom-card m-3">
+    <div className="custom-card m-3 aboutMeBorder1 border border-sm border-success">
       <div className="image-container">
         <img src={image} className="card-img" alt={`${title} Thumbnail`} />
         <div className="overlay">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/App.css"
 
 const ContactPage = () => {
   const [message, setMessage] = useState("");
@@ -24,10 +25,10 @@ const ContactPage = () => {
 
   return (
     <div>
-      <div className="d-flex p-2 justify-content-center">
+      <div className="d-flex pt-2 justify-content-center">
         <h1>Contact Me</h1>
       </div>
-      <div className="formStyle">
+      <div className="formStyle aboutMeBorder1 border border-sm border-success">
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="formName" className="form-label">

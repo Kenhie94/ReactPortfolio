@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../styles/App.css"
 
 const ResumePage = () => {
   return (
@@ -7,7 +8,7 @@ const ResumePage = () => {
       <div className="d-flex p-2 justify-content-center">
         <h1>Resume</h1>
       </div>
-      <div className="formStyle">
+      <div className="formStyle aboutMeBorder1 border border-sm border-success">
       <p>Please download my <a href="">resume</a></p>
         <ul>
           <h3>Front-end Proficiencies</h3>
