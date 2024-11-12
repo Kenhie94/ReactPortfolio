@@ -1,8 +1,7 @@
-#root {
+.formStyle {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 /* src/styles/App.css */
@@ -16,9 +15,57 @@
   flex: 1; /* Takes up remaining space between header and footer */
 }
 
-.sticky-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+.profilePicture {
+  width: 250px;
+}
+
+.navbarTitle {
+  text-shadow: 0.5px 1px 1px black;
+}
+
+.profilePictureBorder {
+  margin: 0rem;
+  border: 2px solid #28a745;
+  background-color: #3D5300;
+  animation: glow 2s infinite;
+  color: white;
+}
+
+.aboutMeBorder1 {
+  margin: 5rem;
+  border: 2px solid #28a745;
+  background-color: #ABBA7C;
+  animation: glow 2s infinite;
+  color: black;
+}
+
+.aboutMeBorder2 {
+  margin: 5rem;
+  border: 2px solid #28a745;
+  background-color: #3D5300;
+  animation: glow 2s infinite;
+  color: white;
+}
+
+.navbarStyle {
+  background: #F09319;
+}
+
+.footerStyle {
+  background: #F09319;
+}
+
+@keyframes glow {
+  0% {
+    border-color: #28a745; /* Initial color */
+    box-shadow: 0 0 15px #28a745;
+  }
+  50% {
+    border-color: #34eb5c; /* Lighter, glowing color */
+    box-shadow: 0 0 30px #34eb5c;
+  }
+  100% {
+    border-color: #28a745; /* Return to initial color */
+    box-shadow: 0 0 15px #28a745;
+  }
 }

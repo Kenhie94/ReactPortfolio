@@ -1,15 +1,17 @@
-import "./styles/App.css";
+import { Outlet } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <>
       <div className="app-container">
         <Navbar />
-        <div classNAme="content">
-          <h1>Content</h1>
-        </div>
+        <main className="content">
+          <Outlet />
+        </main>
         <Footer />
       </div>
     </>

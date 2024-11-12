@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-white text-dark py-4 sticky-footer">
+    <footer className="footerStyle text-black py-4">
       <Container>
         <Row className="text-center">
           <Col md={4}>
@@ -16,7 +16,7 @@ const Footer = () => {
                 href="https://github.com/Kenhie94"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-dark mx-2"
+                className="text-black mx-2"
               >
                 <FaGithub size={24} />
               </a>
@@ -24,7 +24,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/kenjyjap/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-dark mx-2"
+                className="text-black mx-2"
               >
                 <FaLinkedin size={24} />
               </a>
